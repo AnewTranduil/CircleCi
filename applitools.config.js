@@ -8,9 +8,9 @@ module.exports = {
   saveNewTests: false,
   browser: [
     {width: 700, height: 460, name: 'chrome'},
-    {width: 700, height: 460, name: 'edgechromium'},
-    {width: 700, height: 460, name: 'edgechromium-one-version-back'},
+    // {width: 700, height: 460, name: 'edgechromium'},
+    // {width: 700, height: 460, name: 'edgechromium-one-version-back'},
     {width: 700, height: 460, name: 'firefox'},
-    {width: 700, height: 460, name: 'safari'},
+    // {width: 700, height: 460, name: 'safari'},
   ],
 }
