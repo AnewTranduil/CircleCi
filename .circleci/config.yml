@@ -10,7 +10,7 @@ jobs:
     steps:
       - checkout
       - run:
-          command: yarn install
+          command: PUPPETEER_DOWNLOAD_BASE_URL=https://storage.googleapis.com/chrome-for-testing-public yarn install
           name: Run install
       - run:
           command: yarn test
